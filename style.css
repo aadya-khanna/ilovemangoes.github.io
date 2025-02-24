@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'mangoes';
+    src: url('Mango.ttf') format(truetype),
+        url('Mango.woff') format(woff);
+}
+
+@font-face {
+    font-family: 'bubble';
+    src: url('BUBBLEGUMS.TTF') format(truetype),
+    
+}
+
+html {
+    font-family: bubble;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffc971;
+}
+
+h1 {
+    color: #cc5803;
+    font-size: 5vw;
+}
+
+h2 {
+    padding-left: 10px;
+    color: #e2711d;
+    font-size: 3vw;
+}
+
+p {
+    font-family: monospace;
+    font-size: 3vw;
+}
+
+ul {
+    font-family: monospace;
+    padding-left: 5%;
+    font-size: 2vw;
+    list-style-type: "🥭";
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+.column {
+    float: left;
+    width: 100%;
+}
+
+.left {
+    width: 60%;
+    padding-left: 40px;
+}
+
+.right {
+    width: 30%;
+    padding-left: 40px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+} 
+
+.head {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
